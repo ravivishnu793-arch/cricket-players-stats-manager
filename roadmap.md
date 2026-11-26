@@ -1,0 +1,4 @@
+- [x] Add player and team profile stats cards with downloadable PNG export.
+- [x] Add a public Best XI picker with automatic ranking and editable role-balanced selection.
+- [ ] Finish reduced-motion-aware player-card tilt, decimal counters, stable podium particles, comparison battle effects, route transitions, and springy filter chips.
+- [ ] Verify Best XI helper tests, share-card downloads, animation preview, and the current app build; remove this roadmap when complete.

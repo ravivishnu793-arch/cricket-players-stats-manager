@@ -1,0 +1,15 @@
+{
+  "name": "Cricket Players Statistics Manager",
+  "short_name": "Cricket Stats",
+  "description": "Professional cricket statistics management system for players, teams, and tournaments",
+  "theme_color": "#0B1E34",
+  "background_color": "#0B1E34",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    { "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/pwa-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,3 @@
+CREATE POLICY "Admins read scorecards" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'scorecards' AND public.has_role(auth.uid(),'admin'));
+CREATE POLICY "Admins upload scorecards" ON storage.objects FOR INSERT TO authenticated WITH CHECK (bucket_id = 'scorecards' AND public.has_role(auth.uid(),'admin'));
+CREATE POLICY "Admins delete scorecards" ON storage.objects FOR DELETE TO authenticated USING (bucket_id = 'scorecards' AND public.has_role(auth.uid(),'admin'));
